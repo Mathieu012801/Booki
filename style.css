@@ -273,7 +273,7 @@ html {
     width: 278px;
     height: 26px;
     margin-bottom: 25px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
@@ -386,21 +386,19 @@ html {
 
 .carte-direct{
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
     justify-content: space-between;
-	height: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 50%;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     border-radius: 20px;
 }
 .Cartepopulaire{
     display: flex;
-	
-	border-radius: 20px;
-	width: 90%; 
-	height:120px;
-	background-color: white;
-	padding:5px;
-   
+    border-radius: 20px;
+    width: 90%;
+    height:120px;
+    background-color: white;
+    padding:5px;
 }
 
 .Cartepopulaire img{
@@ -424,8 +422,8 @@ html {
 .articlepop{
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    margin: 0 30px;
+    gap: 35px;
+    /* margin: 0 20px; */
 }
 
 
@@ -785,7 +783,7 @@ html {
     .search-filters-0 {
         flex-wrap: wrap;
         width: 100%;
-        gap: 15px;
+        gap: 6px;
         padding: 0;
         margin: 0;
     }
@@ -841,29 +839,32 @@ html {
 
     }
     .fa-chart-line{
-        padding-right: 35px;
+        padding-left: 35px;
     }
     
     .direct-popular{
-        width: 90%;
+        width: 100%;
         padding: 15px;
     }
     .main-hebergement-popular a{
+        max-width: 90%;
         height: 150px;
         margin: auto;
-        
     }
     .Cartepopulaire{
         width: 100%;
 
     }
     .carte-direct{
-        height: 41%;
-        width: 100%;
+        /* width: 100%; */
+        height: 66%;
+        /* min-width: 90%; */
+        /* margin: auto; */
     }
     .Carte-Popular{
+        box-sizing: border-box;
         width: 145px;
-        margin: 10px 10px 5px 5px;
+        /* margin: 10px 10px 5px 5px; */
     }
     .Cartepopulaire img{
         width: 130px;
@@ -883,7 +884,7 @@ html {
         max-width: 768px;
     } 
     .main-hebergement h2{
-        margin: 10px 0 25px 20px;
+        margin: 10px 0 25px 15px;
     }
     .main-hebergement-carte{
         min-width: 90%;
@@ -907,7 +908,8 @@ html {
 
     }
     .containeractivite h2{
-        width: 100%;
+        box-sizing: border-box;
+        width: 90%;
         padding: 5px 0 0 25px;
     }
      
@@ -951,7 +953,3 @@ html {
 
 
 }
-
-
-    
-
